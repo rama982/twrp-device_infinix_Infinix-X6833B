@@ -1,5 +1,5 @@
 cc_library_static {
-    name: "libinit_Infinix-X678B",
+    name: "libinit_Infinix-X6833B",
     header_libs: [
         "libbase_headers",
     ],
@@ -9,6 +9,6 @@ cc_library_static {
     static_libs: [
         "libbase",
     ],
-    srcs: ["init_Infinix-X678B.cpp"],
+    srcs: ["init_Infinix-X6833B.cpp"],
     recovery_available: true,
 }

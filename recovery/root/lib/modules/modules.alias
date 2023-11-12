@@ -108,8 +108,6 @@ alias of:N*T*Cmediatek,mt6768-i2cC* i2c_mt65xx
 alias platform:musb-hdrc musb_main
 alias of:N*T*Crichtek,pca_rfc_ta pca_rfc_ta
 alias of:N*T*Crichtek,pca_rfc_taC* pca_rfc_ta
-alias of:N*T*Cfocaltech,fts ft3681_common
-alias of:N*T*Cfocaltech,ftsC* ft3681_common
 alias of:N*T*Cmediatek,mt6357-battery_oc_throttling mtk_battery_oc_throttling
 alias of:N*T*Cmediatek,mt6357-battery_oc_throttlingC* mtk_battery_oc_throttling
 alias of:N*T*Cmediatek,mt6358-battery_oc_throttling mtk_battery_oc_throttling
@@ -118,8 +116,6 @@ alias of:N*T*Cmediatek,mt6359p-battery_oc_throttling mtk_battery_oc_throttling
 alias of:N*T*Cmediatek,mt6359p-battery_oc_throttlingC* mtk_battery_oc_throttling
 alias of:N*T*Cmediatek,mt6375-battery_oc_throttling mtk_battery_oc_throttling
 alias of:N*T*Cmediatek,mt6375-battery_oc_throttlingC* mtk_battery_oc_throttling
-alias of:N*T*Cwireless_ta wireless_ta
-alias of:N*T*Cwireless_taC* wireless_ta
 alias of:N*T*Crichtek,rt5133 rt5133_regulator
 alias of:N*T*Crichtek,rt5133C* rt5133_regulator
 alias platform:mt6358-regulator mt6358_regulator
@@ -143,11 +139,6 @@ alias of:N*T*Cmediatek,mt6895-spmi spmi_mtk_pmif
 alias of:N*T*Cmediatek,mt6895-spmiC* spmi_mtk_pmif
 alias of:N*T*Cmediatek,mt6983-spmi spmi_mtk_pmif
 alias of:N*T*Cmediatek,mt6983-spmiC* spmi_mtk_pmif
-alias of:N*T*Crichtek,hl7138 hl7138
-alias of:N*T*Crichtek,hl7138C* hl7138
-alias of:N*T*Crichtek,hl7139 hl7138
-alias of:N*T*Crichtek,hl7139C* hl7138
-alias i2c:hl7138 hl7138
 alias of:N*T*Cmediatek,gpueb gpueb
 alias of:N*T*Cmediatek,gpuebC* gpueb
 alias i2c:rt1711h tcpc_rt1711h
@@ -189,6 +180,8 @@ alias of:N*T*Cmediatek,mt6768-disp-pwm pwm_mtk_disp
 alias of:N*T*Cmediatek,mt6768-disp-pwmC* pwm_mtk_disp
 alias of:N*T*Cmediatek,mt6765-disp-pwm pwm_mtk_disp
 alias of:N*T*Cmediatek,mt6765-disp-pwmC* pwm_mtk_disp
+alias of:N*T*Cnt36672e,fhdp,dsi,vdo,hx,hx,120hz,x6833b nt36672e_fhdp_dsi_vdo_hx_hx_120hz_x6833b
+alias of:N*T*Cnt36672e,fhdp,dsi,vdo,hx,hx,120hz,x6833bC* nt36672e_fhdp_dsi_vdo_hx_hx_120hz_x6833b
 alias of:N*T*Cmediatek,mt6357-dynamic_loading_throttling mtk_dynamic_loading_throttling
 alias of:N*T*Cmediatek,mt6357-dynamic_loading_throttlingC* mtk_dynamic_loading_throttling
 alias of:N*T*Cmediatek,mt6358-dynamic_loading_throttling mtk_dynamic_loading_throttling
@@ -264,9 +257,6 @@ alias of:N*T*Cmediatek,mt6373 mtk_spmi_pmic
 alias of:N*T*Cmediatek,mt6373C* mtk_spmi_pmic
 alias of:N*T*Cmediatek,scpsys-disable-unused mtk_pm_domain_disable_unused
 alias of:N*T*Cmediatek,scpsys-disable-unusedC* mtk_pm_domain_disable_unused
-alias i2c:mt5728 wireless_mt5728
-alias of:N*T*Cmediatek,mt5728 wireless_mt5728
-alias of:N*T*Cmediatek,mt5728C* wireless_mt5728
 alias of:N*T*Cmediatek,pbm mtk_pbm
 alias of:N*T*Cmediatek,pbmC* mtk_pbm
 alias of:N*T*Cmediatek,disp-leds leds_mtk_disp
@@ -295,12 +285,6 @@ alias of:N*T*Cmediatek,mt6359p-lbat_service pmic_lbat_service
 alias of:N*T*Cmediatek,mt6359p-lbat_serviceC* pmic_lbat_service
 alias of:N*T*Cmediatek,mt6375-lbat-service pmic_lbat_service
 alias of:N*T*Cmediatek,mt6375-lbat-serviceC* pmic_lbat_service
-alias of:N*T*Cnt37703,fhdp,dsi,vdo,tm,panda,x678b nt37703_fhdp_dsi_vdo_tm_panda_120hz_x678b
-alias of:N*T*Cnt37703,fhdp,dsi,vdo,tm,panda,x678bC* nt37703_fhdp_dsi_vdo_tm_panda_120hz_x678b
-alias of:N*T*Cmediatek,mtk-drm-gateic-drv-rt4801h mediatek_drm_gateic
-alias of:N*T*Cmediatek,mtk-drm-gateic-drv-rt4801hC* mediatek_drm_gateic
-alias of:N*T*Cmediatek,mtk-drm-gateic-drv-rt4831a mediatek_drm_gateic
-alias of:N*T*Cmediatek,mtk-drm-gateic-drv-rt4831aC* mediatek_drm_gateic
 alias platform:mtk-spi spi_mt65xx
 alias of:N*T*Cmediatek,mt2701-spi spi_mt65xx
 alias of:N*T*Cmediatek,mt2701-spiC* spi_mt65xx
@@ -771,10 +755,13 @@ alias of:N*T*Cmediatek,gpufreq_wrapperC* mtk_gpufreq_wrapper
 alias of:N*T*Cmediatek,pd_adapter mtk_pd_adapter
 alias of:N*T*Cmediatek,pd_adapterC* mtk_pd_adapter
 alias net-pf-16-proto-16-family-nl80211 cfg80211
+alias i2c:fshaptic fs3xxx_haptic
 alias of:N*T*Ctran,chg_aging tran_battery_aging
 alias of:N*T*Ctran,chg_agingC* tran_battery_aging
 alias of:N*T*Cmediatek,charger,pe4 mtk_pep40
 alias of:N*T*Cmediatek,charger,pe4C* mtk_pep40
+alias of:N*T*Cili7807s,fhdp,dsi,vdo,txd,boe,120hz,x6833b ili7807s_fhdp_dsi_vdo_txd_boe_120hz_x6833b
+alias of:N*T*Cili7807s,fhdp,dsi,vdo,txd,boe,120hz,x6833bC* ili7807s_fhdp_dsi_vdo_txd_boe_120hz_x6833b
 alias platform:musb-hdrc musb_hdrc
 alias of:N*T*Cmediatek,mt6789-usb20 musb_hdrc
 alias of:N*T*Cmediatek,mt6789-usb20C* musb_hdrc
